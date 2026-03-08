@@ -1,0 +1,17 @@
+
+name: infer-env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8.5
+  - pip<22.0
+  - pip:
+    - pandas
+    - azureml-core
+    - azureml-dataset-runtime[fuse]
+    - setuptools
+    - scikit-learn
+    - numpy
+    - azureml-fsspec
+    - azureml-defaults
+    - azureml-inference-server-http
